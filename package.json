@@ -1,7 +1,6 @@
 {
   "name": "projeto-crud",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
@@ -17,5 +16,14 @@
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "mongoose": "^6.1.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabeiro/projeto-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isabeiro/projeto-crud/issues"
+  },
+  "homepage": "https://github.com/isabeiro/projeto-crud#readme",
+  "description": ""
 }
