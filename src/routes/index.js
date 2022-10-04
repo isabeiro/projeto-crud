@@ -13,7 +13,12 @@ router.get('/register', CustomersController.index)
 router.post('/register/add', CustomersController.add)
 
 //rota para listar usuários
-router.get('/list', CustomersController.listUsers)
+router.get('/list', CustomersController.list)
+
+//editar
+router.get('/edit', CustomersController.formEdit)
+router.post('/edit/:id', CustomersController.edit)
+
     
 // CONTROLLER - QM VAI RECEBER OS DADOS, SALVAR NO BANCO DE DADOS E DAR UMA RESPOSTA - IDEAL FICAR SEPARADO DAS ROTAS
 
