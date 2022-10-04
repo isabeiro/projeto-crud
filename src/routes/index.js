@@ -19,6 +19,9 @@ router.get('/list', CustomersController.list)
 router.get('/edit', CustomersController.formEdit)
 router.post('/edit/:id', CustomersController.edit)
 
+//remover
+router.get('/remove/:id', CustomersController.remove)
+
     
 // CONTROLLER - QM VAI RECEBER OS DADOS, SALVAR NO BANCO DE DADOS E DAR UMA RESPOSTA - IDEAL FICAR SEPARADO DAS ROTAS
 
